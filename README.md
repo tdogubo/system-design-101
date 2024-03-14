@@ -377,7 +377,11 @@ The diagram below shows typical API designs with a shopping cart example.
 </p>
 
 
-Note that API design is not just URL path design. Most of the time, we need to choose the proper resource names, identifiers, and path patterns. It is equally important to design proper HTTP header fields or to design effective rate-limiting rules within the API gateway. 
+Note that API design is not just URL path design. Most of the time, we need to choose the proper resource names, identifiers, and path patterns. It is equally important to design proper HTTP header fields or to design effective rate-limiting rules within the API gateway.
+
+[More on the differences between API and API gateway](https://www.geeksforgeeks.org/what-is-the-difference-between-an-api-and-an-api-gateway/)
+
+
 
 ### TCP/IP encapsulation 
 
