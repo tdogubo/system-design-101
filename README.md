@@ -493,15 +493,15 @@ URN stands for Uniform Resource Name. It uses the urn scheme. URNs cannot be use
 
 If you would like to learn more detail on the subject, I would recommend [W3C’s clarification](https://www.w3.org/TR/uri-clarification/).
 
-## CI/CD
+## 
 
-### CI/CD Pipeline Explained in Simple Terms
+###  Pipeline Explained in Simple Terms
 
 <p>
   <img src="images/ci-cd-pipeline.jpg" style="width: 680px" />
 </p>
 
-Section 1 - SDLC with CI/CD
+Section 1 - SDLC with 
 
 The software development life cycle (SDLC) consists of several key stages: development, testing, deployment, and maintenance. CI/CD automates and integrates these stages to enable faster and more reliable releases.
 
@@ -511,7 +511,9 @@ Section 2 - Difference between CI and CD
 
 Continuous Integration (CI) automates the build, test, and merge process. It runs tests whenever code is committed to detect integration issues early. This encourages frequent code commits and rapid feedback.
 
-Continuous Delivery (CD) automates release processes like infrastructure changes and deployment. It ensures software can be released reliably at any time through automated workflows. CD may also automate the manual testing and approval steps required before production deployment.
+Continuous Delivery (CD) automates release processes like infrastructure changes [
+(More on infrastructure as a code)
+](https://aws.amazon.com/what-is/iac/#:~:text=Infrastructure%20as%20code%20(IaC)%20is,%2C%20database%20connections%2C%20and%20storage.) and deployment. It ensures software can be released reliably at any time through automated workflows. CD may also automate the manual testing and approval steps required before production deployment.
 
 Section 3 - CI/CD Pipeline
 
