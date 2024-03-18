@@ -645,7 +645,7 @@ Step 6 - Access methods decide whether the SQL statement is read-only. If the qu
 
 Step 7 - If the statement is an UPDATE or INSERT, it is passed to the transaction manager for further processing.
 
-Step 8 - During a transaction, the data is in lock mode. This is guaranteed by the lock manager. It also ensures the transaction’s ACID properties(Expanded details on ACID properties)[https://www.databricks.com/glossary/acid-transactions]. 
+Step 8 - During a transaction, the data is in lock mode. This is guaranteed by the lock manager. It also ensures the transaction’s ACID properties [(Expanded details on ACID properties)](https://www.databricks.com/glossary/acid-transactions). 
 
 ###  CAP theorem
 
