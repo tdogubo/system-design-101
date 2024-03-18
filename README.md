@@ -35,7 +35,7 @@ Whether you're preparing for a System Design Interview or you simply want to und
   - [HTTP status codes](#http-status-codes)
   - [What does API gateway do?](#what-does-api-gateway-do)
   - [How do we design effective and safe APIs?](#how-do-we-design-effective-and-safe-apis)
-  - [TCP/IP encapsulation](#tcpip-encapsulation)
+  - [TCP/IP ensulation](#tcpip-ensulation)
   - [Why is Nginx called a “reverse” proxy?](#why-is-nginx-called-a-reverse-proxy)
   - [What are the common load-balancing algorithms?](#what-are-the-common-load-balancing-algorithms)
   - [URL, URI, URN - Do you know the differences?](#url-uri-urn---do-you-know-the-differences)
@@ -645,7 +645,7 @@ Step 6 - Access methods decide whether the SQL statement is read-only. If the qu
 
 Step 7 - If the statement is an UPDATE or INSERT, it is passed to the transaction manager for further processing.
 
-Step 8 - During a transaction, the data is in lock mode. This is guaranteed by the lock manager. It also ensures the transaction’s ACID properties. 
+Step 8 - During a transaction, the data is in lock mode. This is guaranteed by the lock manager. It also ensures the transaction’s ACID properties(Expanded details on ACID properties)[https://www.databricks.com/glossary/acid-transactions]. 
 
 ###  CAP theorem
 
